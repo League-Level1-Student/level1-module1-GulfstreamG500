@@ -4,18 +4,17 @@ package _02_cat;
  *    Level 1
  */
 
-		/* Do the following things without changing the Cat class 
-	
-		* Create a CatRunner class in the cat package, with a main method that creates a Cat object.
+/* Do the following things without changing the Cat class 
 
-        * 1. Make the Cat meow
-		
-		* 2. Get the Cat to print it's name
+* Create a CatRunner class in the cat package, with a main method that creates a Cat object.
 
-		* 3. Kill the Cat! 
-		
-		*/
+* 1. Make the Cat meow
 
+* 2. Get the Cat to print it's name
+
+* 3. Kill the Cat! 
+
+*/
 
 public class Cat {
 
@@ -47,7 +46,20 @@ public class Cat {
 			System.out.println("DEAD CAT :(");
 	}
 
+	public static void main(String[] args) {
+
+		Cat bom = new Cat("bom");
+		bom.meow();
+		bom.printName();
+		bom.kill();
+	for (int i = 0; i <8; i++) {
+		bom.kill();
+	
+}
+System.out.println("bom is outside");	
+	System.out.println("he has assualt rifle");
+	
+	
+	}
 
 }
-
-

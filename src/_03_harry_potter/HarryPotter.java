@@ -38,5 +38,8 @@ public class HarryPotter {
 	void spyOnSnape() {
 		System.out.println("Harry sees Professor Snape doing nefarious things.");
 	}
-
+public static void main(String[] args) {
+	HarryPotter bob= new HarryPotter();
+	bob.makeInvisible(true);
+}
 }
